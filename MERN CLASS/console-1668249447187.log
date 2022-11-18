@@ -1,0 +1,82 @@
+var a;
+undefined
+typesof a;
+VM86:1 Uncaught SyntaxError: Unexpected identifier 'a'
+typeof a;
+'undefined'
+a= 1234;
+1234
+typeof a;
+'number'
+a= shambhavi;
+VM212:1 Uncaught ReferenceError: shambhavi is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM212:1
+a= "shambhavi"
+'shambhavi'
+typeof a;
+'string'
+var t= true;
+undefined
+typeof t;
+'boolean'
+y= 12345786797575n:
+VM429:1 Uncaught SyntaxError: Unexpected token ':'
+y=15382153475n;
+15382153475n
+y++;
+15382153475n
+typeof y;
+'bigint'
+h= 1018298783453n+ 748658n
+1018299532111n
+var marks= [ 20, 30, 40, 50, 60];
+undefined
+typeof marks;
+'object'
+marks.sort;
+ƒ sort() { [native code] }
+marks instanceof;
+VM812:1 Uncaught SyntaxError: Unexpected token ';'
+marks instanceof array;
+VM904:1 Uncaught ReferenceError: array is not defined
+    at <anonymous>:1:18
+(anonymous) @ VM904:1
+marks instanceof Array;
+true
+marks;
+(5) [20, 30, 40, 50, 60]
+marks= null;
+null
+marks.length;
+VM1033:1 Uncaught TypeError: Cannot read properties of null (reading 'length')
+    at <anonymous>:1:7
+(anonymous) @ VM1033:1
+typeof marks;
+'object'
+typeof Array;
+'function'
+var e=[ 10, 20 30];
+VM1154:1 Uncaught SyntaxError: Unexpected number
+var e=[ 10, 20, 30];
+undefined
+typeof e;
+'object'
+e instanceof;
+VM1263:1 Uncaught SyntaxError: Unexpected token ';'
+e instanceof Array;
+true
+e instance of Object;
+VM1353:1 Uncaught SyntaxError: Unexpected identifier 'instance'
+e instanceof object;
+VM1403:1 Uncaught ReferenceError: object is not defined
+    at <anonymous>:1:14
+(anonymous) @ VM1403:1
+e instanceof Object;
+true
+var temp=[20, 40, 46, 23, 43, 12]
+undefined
+typeof temp;
+'object'
+var temp2=[delhi:22, varansi:14];
+VM1726:1 Uncaught SyntaxError: Unexpected token ':'

@@ -1,0 +1,97 @@
+var obj= {id: 1001' name:'Shambhavi'};
+VM138:1 Uncaught SyntaxError: Unexpected string
+var obj= {id: 10001' name:'harsh'};
+VM202:1 Uncaught SyntaxError: Unexpected string
+var obj= {id: 1001' name:'amit'};
+VM259:1 Uncaught SyntaxError: Unexpected string
+var obj= {id:'1001' name:'Shambhavi'};
+VM300:1 Uncaught SyntaxError: Unexpected identifier 'name'
+var obj= {id:'1001',name:'Shambhavi'};
+undefined
+typeof obj;
+'object'
+let a= 'name';
+undefined
+dhoni.a;
+VM481:1 Uncaught ReferenceError: dhoni is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM481:1
+dhoni[a];
+VM519:1 Uncaught ReferenceError: dhoni is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM519:1
+{4: 3000, 6: 1000, 50: 88, 100: 20, name:'MS Dhoni', firstname:'MS', lastname:'Dhoni'};
+VM722:1 Uncaught SyntaxError: Unexpected token ':'
+{4: 3000, 6: 1000, 50: 88, 100: 20, name:'MS Dhoni', firstname:'MS', lastname:'Dhoni'}
+{4: 3000, 6: 1000, 50: 88, 100: 20, name: 'MS Dhoni', firstname: 'MS', lastname: 'Dhoni'}
+Dhoni.name;
+VM759:1 Uncaught ReferenceError: Dhoni is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM759:1
+dhoni.name
+VM788:1 Uncaught ReferenceError: dhoni is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM788:1
+dhoni[a];
+VM810:1 Uncaught ReferenceError: dhoni is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM810:1
+var dhoni= {name: 'MS Dhoni', age: 43, 50:88, 100:22};
+undefined
+dhoni.name;
+'MS Dhoni'
+typeof dhoni;
+'object'
+undefined=== null;
+false
+var y=" let's go";
+undefined
+y;
+" let's go"
+100+ null;
+100
+100+ undefined
+NaN
+isNaN(100+ undefined);
+true
+100/0;
+Infinity
+isFinite(100/0)?100:0;
+0
+typeof(100/0);
+'number'
+[] ===[]
+false
+[] ==[]
+false
+{} ==={}
+false
+{}== {}
+false
+console.log("hello JS");
+VM1564:1 hello JS
+undefined
+typeof console;
+'object'
+typeof console.log;
+'function'
+console.log("object is"+obj);
+VM1782:1 object is[object Object]
+undefined
+"hello"+obj;
+'hello[object Object]'
+obj.toString();
+'[object Object]'
+var g=[10, 20, 30];
+undefined
+"hello"+g;
+'hello10,20,30'
+console.log('hi', g, obj, y);
+VM2128:1 hi (3) [10, 20, 30] {id: '1001', name: 'Shambhavi'}  let's go
+undefined
+console.dir(obj);
+VM2185:1 Objectid: "1001"name: "Shambhavi"[[Prototype]]: Object
+undefined
+console.dir(isNaN);
+VM2259:1 ƒ isNaN()length: 1name: "isNaN"arguments: (...)caller: (...)[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]
+undefined

@@ -1,0 +1,17 @@
+dhoni[50] associative array
+unde
+key is unique ,it can't be repeated
+
+null -- no value bt have type i.e. object
+if null is used with numeric it is considered itself 0
+undefined-- no value and no type
+
+=== --- checks the type of the element 
+== --- it coverts one type into another type and doesn't check type and after conversion it checks the value 
+
+true+ Undefined= NaN
+true+ null= 1
+[] === [] , [] == []----false
+{} === {} , {}== {}-----false
+
+plus operator converts everything into string after using string
